@@ -9,6 +9,7 @@ blank_trans = (0, np.zeros((84, 84), dtype=np.uint8), 0, 0.0, False)
 
 
 # Segment tree data structure where parent node values are sum/max of children node values
+# 親ノードの値が子ノードの値の合計/最大であるセグメント ツリー データ構造
 class SegmentTree():
     def __init__(self, size):
         self.index = 0
